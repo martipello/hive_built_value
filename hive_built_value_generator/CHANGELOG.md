@@ -1,3 +1,14 @@
+## 1.1.5
+
+- Fix builder generator (again again)
+
+- Updated `analyzer` version constraints
+## 1.1.4
+
+- Fix builder generator (again)
+
+- Updated `analyzer` version constraints
+
 ## 1.1.3
 
 - Fix builder generator

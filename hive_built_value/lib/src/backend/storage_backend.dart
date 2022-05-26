@@ -3,8 +3,8 @@ import 'package:hive_built_value/src/binary/frame.dart';
 import 'package:hive_built_value/src/box/keystore.dart';
 
 export 'package:hive_built_value/src/backend/stub/backend_manager.dart'
-    if (dart.library.io) 'package:hive/src/backend/vm/backend_manager.dart'
-    if (dart.library.html) 'package:hive/src/backend/js/backend_manager.dart';
+    if (dart.library.io) 'package:hive_built_value/src/backend/vm/backend_manager.dart'
+    if (dart.library.html) 'package:hive_built_value/src/backend/js/backend_manager.dart';
 
 /// Abstract storage backend
 abstract class StorageBackend {
