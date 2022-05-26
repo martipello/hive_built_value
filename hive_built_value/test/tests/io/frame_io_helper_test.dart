@@ -2,8 +2,8 @@
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:hive/src/box/keystore.dart';
-import 'package:hive/src/io/frame_io_helper.dart';
+import 'package:hive_built_value/src/box/keystore.dart';
+import 'package:hive_built_value/src/io/frame_io_helper.dart';
 import 'package:test/test.dart';
 
 import '../common.dart';

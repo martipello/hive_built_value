@@ -88,8 +88,8 @@ print(box.getAt(0)) // Dave - 30
 Hive was written with Flutter in mind. It is a perfect fit if you need a lightweight datastore for your app. After adding the required dependencies and initializing Hive, you can use Hive in your project:
 
 ```dart
-import 'package:hive/hive.dart';
-import 'package:hive_flutter/hive_flutter.dart';
+import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value_flutter/hive_flutter.dart';
 
 class SettingsPage extends StatelessWidget {
   @override

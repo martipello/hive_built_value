@@ -1,9 +1,9 @@
 import 'dart:html';
 import 'dart:indexed_db';
 import 'dart:js' as js;
-import 'package:hive/hive.dart';
-import 'package:hive/src/backend/js/storage_backend_js.dart';
-import 'package:hive/src/backend/storage_backend.dart';
+import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/src/backend/js/storage_backend_js.dart';
+import 'package:hive_built_value/src/backend/storage_backend.dart';
 
 /// Opens IndexedDB databases
 class BackendManager implements BackendManagerInterface {

@@ -2,7 +2,7 @@
 import 'dart:html';
 import 'dart:indexed_db';
 
-import 'package:hive/src/backend/js/backend_manager.dart';
+import 'package:hive_built_value/src/backend/js/backend_manager.dart';
 import 'package:test/test.dart';
 
 Future<Database> _openDb() async {

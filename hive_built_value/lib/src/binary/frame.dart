@@ -1,5 +1,5 @@
-import 'package:hive/hive.dart';
-import 'package:hive/src/util/extensions.dart';
+import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/src/util/extensions.dart';
 
 /// Not part of public API
 class Frame {

@@ -5,13 +5,13 @@ import 'dart:html';
 import 'dart:indexed_db';
 import 'dart:typed_data';
 
-import 'package:hive/hive.dart';
-import 'package:hive/src/backend/js/storage_backend_js.dart';
-import 'package:hive/src/binary/binary_writer_impl.dart';
-import 'package:hive/src/binary/frame.dart';
-import 'package:hive/src/box/change_notifier.dart';
-import 'package:hive/src/box/keystore.dart';
-import 'package:hive/src/registry/type_registry_impl.dart';
+import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/src/backend/js/storage_backend_js.dart';
+import 'package:hive_built_value/src/binary/binary_writer_impl.dart';
+import 'package:hive_built_value/src/binary/frame.dart';
+import 'package:hive_built_value/src/box/change_notifier.dart';
+import 'package:hive_built_value/src/box/keystore.dart';
+import 'package:hive_built_value/src/registry/type_registry_impl.dart';
 import 'package:test/test.dart';
 
 import '../../frames.dart';

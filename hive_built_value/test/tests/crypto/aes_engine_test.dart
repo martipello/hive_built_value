@@ -1,7 +1,7 @@
 @Skip('Cannot run with sound null safety')
 import 'dart:typed_data';
 
-import 'package:hive/src/crypto/aes_engine.dart';
+import 'package:hive_built_value/src/crypto/aes_engine.dart';
 import 'package:pointycastle/api.dart';
 import 'package:pointycastle/block/aes_fast.dart';
 import 'package:test/test.dart';

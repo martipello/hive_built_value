@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:hive/hive.dart';
-import 'package:hive/src/backend/storage_backend.dart';
-import 'package:hive/src/backend/vm/storage_backend_vm.dart';
+import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/src/backend/storage_backend.dart';
+import 'package:hive_built_value/src/backend/vm/storage_backend_vm.dart';
 import 'package:meta/meta.dart';
 
 /// Not part of public API

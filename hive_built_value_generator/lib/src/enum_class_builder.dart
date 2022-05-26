@@ -1,5 +1,5 @@
 import 'package:analyzer/dart/element/element.dart';
-import 'package:hive_generator/src/builder.dart';
+import 'package:hive_built_value_generator/src/builder.dart';
 
 class EnumClassBuilder extends Builder {
   EnumClassBuilder(

@@ -7,10 +7,10 @@ import 'package:analyzer/dart/element/type.dart';
 import 'package:built_collection/built_collection.dart';
 import 'package:built_value/built_value.dart' as bv;
 import 'package:dartx/dartx.dart';
-import 'package:hive/hive.dart';
-import 'package:hive_generator/src/builder.dart';
-import 'package:hive_generator/src/helper.dart';
-import 'package:hive_generator/src/type_helper.dart';
+import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value_generator/src/builder.dart';
+import 'package:hive_built_value_generator/src/helper.dart';
+import 'package:hive_built_value_generator/src/type_helper.dart';
 import 'package:source_gen/source_gen.dart';
 
 import 'type_adapter_generator.dart';

@@ -3,8 +3,8 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:hive/src/box/keystore.dart';
-import 'package:hive/src/hive_impl.dart';
+import 'package:hive_built_value/src/box/keystore.dart';
+import 'package:hive_built_value/src/hive_impl.dart';
 import 'package:path/path.dart' as path;
 import 'package:test/test.dart';
 

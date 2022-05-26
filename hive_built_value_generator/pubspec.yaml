@@ -10,7 +10,7 @@ environment:
 dependencies:
   build: ^2.0.0
   source_gen: ^1.0.0
-  hive:
+  hive_built_value:
     path: ../hive_built_value
   analyzer: ">=1.0.0 <4.0.0"
   source_helper: ^1.1.0

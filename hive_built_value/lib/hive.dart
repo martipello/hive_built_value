@@ -8,14 +8,14 @@ import 'dart:math';
 import 'dart:typed_data';
 
 import 'package:crypto/crypto.dart';
-import 'package:hive/src/box/default_compaction_strategy.dart';
-import 'package:hive/src/box/default_key_comparator.dart';
-import 'package:hive/src/crypto/aes_cbc_pkcs7.dart';
-import 'package:hive/src/crypto/crc32.dart';
-import 'package:hive/src/hive_impl.dart';
-import 'package:hive/src/object/hive_list_impl.dart';
-import 'package:hive/src/object/hive_object.dart';
-import 'package:hive/src/util/extensions.dart';
+import 'package:hive_built_value/src/box/default_compaction_strategy.dart';
+import 'package:hive_built_value/src/box/default_key_comparator.dart';
+import 'package:hive_built_value/src/crypto/aes_cbc_pkcs7.dart';
+import 'package:hive_built_value/src/crypto/crc32.dart';
+import 'package:hive_built_value/src/hive_impl.dart';
+import 'package:hive_built_value/src/object/hive_list_impl.dart';
+import 'package:hive_built_value/src/object/hive_object.dart';
+import 'package:hive_built_value/src/util/extensions.dart';
 import 'package:meta/meta.dart';
 
 export 'src/object/hive_object.dart' show HiveObject, HiveObjectMixin;

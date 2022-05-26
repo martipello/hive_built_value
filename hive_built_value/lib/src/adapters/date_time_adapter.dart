@@ -1,4 +1,4 @@
-import 'package:hive/hive.dart';
+import 'package:hive_built_value/hive.dart';
 
 /// Adapter for DateTime
 class DateTimeAdapter<T extends DateTime> extends TypeAdapter<T> {

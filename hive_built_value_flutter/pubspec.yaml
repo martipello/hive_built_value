@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  hive:
+  hive_built_value:
     path: ../hive_built_value
   path_provider: ^2.0.2
   path: ^1.8.0

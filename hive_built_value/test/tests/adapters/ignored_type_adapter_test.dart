@@ -1,4 +1,4 @@
-import 'package:hive/src/adapters/ignored_type_adapter.dart';
+import 'package:hive_built_value/src/adapters/ignored_type_adapter.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:test/test.dart';
 

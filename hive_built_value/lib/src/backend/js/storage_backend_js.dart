@@ -5,13 +5,13 @@ import 'dart:js' as js;
 import 'dart:js_util';
 import 'dart:typed_data';
 
-import 'package:hive/hive.dart';
-import 'package:hive/src/backend/storage_backend.dart';
-import 'package:hive/src/binary/binary_reader_impl.dart';
-import 'package:hive/src/binary/binary_writer_impl.dart';
-import 'package:hive/src/binary/frame.dart';
-import 'package:hive/src/box/keystore.dart';
-import 'package:hive/src/registry/type_registry_impl.dart';
+import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/src/backend/storage_backend.dart';
+import 'package:hive_built_value/src/binary/binary_reader_impl.dart';
+import 'package:hive_built_value/src/binary/binary_writer_impl.dart';
+import 'package:hive_built_value/src/binary/frame.dart';
+import 'package:hive_built_value/src/box/keystore.dart';
+import 'package:hive_built_value/src/registry/type_registry_impl.dart';
 import 'package:meta/meta.dart';
 
 /// Handles all IndexedDB related tasks

@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:hive/src/util/indexable_skip_list.dart';
+import 'package:hive_built_value/src/util/indexable_skip_list.dart';
 import 'package:test/test.dart';
 
 void main() {
