@@ -1,4 +1,4 @@
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value/src/util/extensions.dart';
 
 /// Not part of public API

@@ -7,7 +7,7 @@ import 'package:analyzer/dart/element/type.dart';
 import 'package:built_collection/built_collection.dart';
 import 'package:built_value/built_value.dart' as bv;
 import 'package:dartx/dartx.dart';
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value_generator/src/builder.dart';
 import 'package:hive_built_value_generator/src/helper.dart';
 import 'package:hive_built_value_generator/src/type_helper.dart';

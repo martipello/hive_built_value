@@ -5,7 +5,7 @@ import 'dart:js' as js;
 import 'dart:js_util';
 import 'dart:typed_data';
 
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value/src/backend/storage_backend.dart';
 import 'package:hive_built_value/src/binary/binary_reader_impl.dart';
 import 'package:hive_built_value/src/binary/binary_writer_impl.dart';

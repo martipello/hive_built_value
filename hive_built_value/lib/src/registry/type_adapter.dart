@@ -1,4 +1,4 @@
-part of hive;
+part of hive_built_value;
 
 /// Type adapters can be implemented to support non primitive values.
 @immutable

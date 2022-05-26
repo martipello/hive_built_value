@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value/src/binary/frame.dart';
 import 'package:meta/meta.dart';
 

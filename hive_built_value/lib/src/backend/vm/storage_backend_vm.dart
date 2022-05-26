@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value/src/backend/storage_backend.dart';
 import 'package:hive_built_value/src/backend/vm/read_write_sync.dart';
 import 'package:hive_built_value/src/binary/binary_reader_impl.dart';

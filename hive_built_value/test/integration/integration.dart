@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value/src/box/box_base_impl.dart';
 import 'package:hive_built_value/src/box/lazy_box_impl.dart';
 import 'package:hive_built_value/src/hive_impl.dart';

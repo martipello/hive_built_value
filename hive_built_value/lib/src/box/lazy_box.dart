@@ -1,4 +1,4 @@
-part of hive;
+part of hive_built_value;
 
 /// [LazyBox]es don't keep the values in memory like normal boxes. Each time a
 /// value is read, it is loaded from the backend.

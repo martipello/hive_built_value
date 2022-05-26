@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value/src/binary/binary_reader_impl.dart';
 import 'package:hive_built_value/src/binary/frame_helper.dart';
 import 'package:hive_built_value/src/box/keystore.dart';

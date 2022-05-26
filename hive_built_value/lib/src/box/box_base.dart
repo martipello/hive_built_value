@@ -1,4 +1,4 @@
-part of hive;
+part of hive_built_value;
 
 /// A event representing a change in a box.
 class BoxEvent {

@@ -2,7 +2,7 @@
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value/src/backend/vm/read_write_sync.dart';
 import 'package:hive_built_value/src/backend/vm/storage_backend_vm.dart';
 import 'package:hive_built_value/src/binary/binary_writer_impl.dart';

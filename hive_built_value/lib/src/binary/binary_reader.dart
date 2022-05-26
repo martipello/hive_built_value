@@ -1,4 +1,4 @@
-part of hive;
+part of hive_built_value;
 
 /// The [BinaryReader] is used to bring data back from the binary format on the
 /// disk.

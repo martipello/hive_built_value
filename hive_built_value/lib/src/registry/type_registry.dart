@@ -1,4 +1,4 @@
-part of hive;
+part of hive_built_value;
 
 /// TypeRegistries contain the [TypeAdapter]s associated with a typeId.
 ///

@@ -2,7 +2,7 @@
 
 import 'dart:io';
 
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value/src/adapters/date_time_adapter.dart';
 import 'package:hive_built_value/src/hive_impl.dart';
 import 'package:test/test.dart';

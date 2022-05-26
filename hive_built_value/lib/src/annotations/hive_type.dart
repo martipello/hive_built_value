@@ -1,4 +1,4 @@
-part of hive;
+part of hive_built_value;
 
 /// Annotate classes with [HiveType] to generate a `TypeAdapter`.
 class HiveType {

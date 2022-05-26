@@ -1,4 +1,4 @@
-part of hive;
+part of hive_built_value;
 
 /// Default encryption algorithm. Uses AES256 CBC with PKCS7 padding.
 class HiveAesCipher implements HiveCipher {

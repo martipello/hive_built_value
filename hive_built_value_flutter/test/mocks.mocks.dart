@@ -5,7 +5,7 @@
 import 'dart:convert' as _i5;
 import 'dart:typed_data' as _i4;
 
-import 'package:hive_built_value/hive.dart' as _i3;
+import 'package:hive_built_value/hive_built_value.dart' as _i3;
 import 'package:hive_built_value/src/object/hive_object.dart' as _i1;
 import 'package:mockito/mockito.dart' as _i2;
 

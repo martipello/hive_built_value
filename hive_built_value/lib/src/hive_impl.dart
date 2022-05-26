@@ -3,7 +3,7 @@ import 'dart:collection';
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value/src/adapters/big_int_adapter.dart';
 import 'package:hive_built_value/src/adapters/date_time_adapter.dart';
 import 'package:hive_built_value/src/backend/storage_backend_memory.dart';

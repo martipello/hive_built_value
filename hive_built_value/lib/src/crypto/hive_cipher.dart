@@ -1,4 +1,4 @@
-part of hive;
+part of hive_built_value;
 
 /// Abstract cipher can be implemented to customize encryption.
 abstract class HiveCipher {

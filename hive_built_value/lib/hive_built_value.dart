@@ -1,6 +1,6 @@
 /// Hive is a lightweight and blazing fast key-value store written in pure Dart.
 /// It is strongly encrypted using AES-256.
-library hive;
+library hive_built_value;
 
 import 'dart:async';
 import 'dart:convert';
@@ -34,7 +34,7 @@ part 'src/object/hive_list.dart';
 part 'src/registry/type_registry.dart';
 part 'src/registry/type_adapter.dart';
 part 'src/hive_error.dart';
-part 'src/hive.dart';
+part 'src/hive_built_value.dart';
 
 /// Global constant to access Hive.
 // ignore: non_constant_identifier_names

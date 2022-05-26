@@ -1,4 +1,4 @@
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value/src/backend/storage_backend.dart';
 import 'package:hive_built_value/src/binary/frame.dart';
 import 'package:hive_built_value/src/box/box_impl.dart';

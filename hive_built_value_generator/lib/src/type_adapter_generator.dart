@@ -1,7 +1,7 @@
 import 'package:analyzer/dart/element/element.dart';
 import 'package:analyzer/dart/element/type.dart';
 import 'package:build/build.dart';
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value_generator/src/builder.dart';
 import 'package:hive_built_value_generator/src/class_builder.dart';
 import 'package:hive_built_value_generator/src/enum_builder.dart';

@@ -1,4 +1,4 @@
-import 'package:hive_built_value/hive.dart';
+import 'package:hive_built_value/hive_built_value.dart';
 
 /// Adapter for BigInt
 class BigIntAdapter extends TypeAdapter<BigInt> {
