@@ -1,4 +1,6 @@
-## 1.1.2
+## 1.1.3
+
+- Fix builder generator
 
 - Updated `analyzer` version constraints
 
