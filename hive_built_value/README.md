@@ -1,7 +1,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/hivedb/hive/master/.github/logo_transparent.svg?sanitize=true" width="350px">
 </p>
-<h2 align="center">Word360</h2>
 
 We have extended Hives functionality to integrate with BuiltValue.
 The only code changes are at hive_generator/lib/src/

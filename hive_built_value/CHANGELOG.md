@@ -1,3 +1,8 @@
+# 2.0.9
+- Update readme
+- # 2.0.8
+- Bumped version
+
 # 2.0.6
 
 ### Fixes

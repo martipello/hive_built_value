@@ -1,3 +1,5 @@
+## 1.1.7
+- Bump version update README.md
 ## 1.1.5
 
 - Fix builder generator (again again)

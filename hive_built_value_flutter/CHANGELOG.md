@@ -1,3 +1,5 @@
+## 1.1.1
+- Bump version
 ## 1.1.0
 
 - Exports `Color` and `TimeOfDay` adapters - [#698](https://github.com/hivedb/hive/pull/698)
