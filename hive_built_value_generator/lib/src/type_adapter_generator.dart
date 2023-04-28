@@ -83,7 +83,7 @@ class TypeAdapterGenerator extends GeneratorForAnnotation<HiveType> {
     List<AdapterField> getters,
     List<AdapterField> setters,
   ) {
-    if (cls.isEnum) {
+    if (cls is EnumElement) {
       return EnumBuilder(cls, getters);
     } else if (enumClassChecker.isExactlyType(cls.supertype as DartType)) {
       return EnumClassBuilder(cls);
