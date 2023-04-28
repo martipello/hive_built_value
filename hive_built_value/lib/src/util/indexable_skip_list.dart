@@ -5,7 +5,7 @@ import 'dart:math';
 class IndexableSkipList<K, V> {
   static const _maxHeight = 12;
 
-  final _Node<K, V> _head = _Node(
+  final _head = _Node<K, V>(
     null,
     null,
     List.filled(_maxHeight, null),
@@ -63,7 +63,7 @@ class IndexableSkipList<K, V> {
     for (var level = _height - 1; level >= 0; level--) {
       while (true) {
         var next = current.next[level];
-        if (next == null || _comparator(key, next.key!) < 0) break;
+        if (next == null || _comparator(key, next.key as K) < 0) break;
         current = next;
       }
 
@@ -83,7 +83,7 @@ class IndexableSkipList<K, V> {
         // CHANGE 3 - Calculate the width of the level
         var width = 0;
         var node = current.next[level - 1];
-        while (node != null && _comparator(key, node.key!) >= 0) {
+        while (node != null && _comparator(key, node.key as K) >= 0) {
           width += node.width[level - 1];
           node = node.next[level - 1];
         }
@@ -121,7 +121,7 @@ class IndexableSkipList<K, V> {
     for (var level = _height - 1; level >= 0; level--) {
       while (true) {
         var next = current.next[level];
-        if (next == null || _comparator(key, next.key!) <= 0) break;
+        if (next == null || _comparator(key, next.key as K) <= 0) break;
         current = next;
       }
 
@@ -170,13 +170,13 @@ class IndexableSkipList<K, V> {
     for (var i = _height - 1; i >= 0; i--) {
       node = prev.next[i];
 
-      while (node != null && _comparator(key, node.key!) > 0) {
+      while (node != null && _comparator(key, node.key as K) > 0) {
         prev = node;
         node = node.next[i];
       }
     }
 
-    if (node != null && _comparator(key, node.key!) == 0) {
+    if (node != null && _comparator(key, node.key as K) == 0) {
       return node;
     }
     return null;

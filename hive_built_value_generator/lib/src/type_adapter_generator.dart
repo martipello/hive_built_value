@@ -19,7 +19,10 @@ class TypeAdapterGenerator extends GeneratorForAnnotation<HiveType> {
   var enumClassChecker = const TypeChecker.fromUrl('package:built_value/built_value.dart#EnumClass');
 
   static String generateName(String typeName) {
-    var adapterName = '${typeName}Adapter'.replaceAll(RegExp(r'[^A-Za-z0-9]+'), '');
+    var adapterName = '${typeName}Adapter'.replaceAll(
+      RegExp(r'[^A-Za-z0-9]+'),
+      '',
+    );
     if (adapterName.startsWith('_')) {
       adapterName = adapterName.substring(1);
     }
@@ -166,7 +169,10 @@ class TypeAdapterGenerator extends GeneratorForAnnotation<HiveType> {
 
   void verifyFieldIndices(List<AdapterField> fields) {
     for (var field in fields) {
-      check(field.index >= 0 && field.index <= 255, 'Field numbers can only be in the range 0-255.');
+      check(
+        field.index >= 0 && field.index <= 255,
+        'Field numbers can only be in the range 0-255.',
+      );
 
       for (var otherField in fields) {
         if (otherField == field) continue;

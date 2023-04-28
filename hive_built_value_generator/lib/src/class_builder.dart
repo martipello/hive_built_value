@@ -62,6 +62,7 @@ class ClassBuilder extends _ClassBuilderBase {
   }
 
   @override
+  //ignore: try_adding_return_type Method is recursive
   String? buildReadConstructor(StringBuffer code) {
     if (!isThisBuilt) {
       return super.buildReadConstructor(code);
