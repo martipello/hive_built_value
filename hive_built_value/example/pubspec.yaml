@@ -1,11 +1,11 @@
 name: example
 
 dependencies:
-  hive_built_value: ^2.0.6
+  hive_built_value: ^2.0.10
 
 dev_dependencies:
-  hive_built_value_generator: ^1.1.5
-  build_runner: any
+  hive_built_value_generator: ^1.1.8
+  build_runner: ^2.3.3
 
 environment:
-  sdk: '>=2.12.0-0 <3.0.0'
+  sdk: ">=2.17.6 <3.0.0"
