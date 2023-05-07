@@ -1,22 +1,20 @@
 import 'package:analyzer/dart/element/element.dart';
 import 'package:analyzer/dart/element/type.dart';
 import 'package:build/build.dart';
+import 'package:built_value/built_value.dart';
 import 'package:hive_built_value/hive_built_value.dart';
 import 'package:hive_built_value_generator/src/builder.dart';
 import 'package:hive_built_value_generator/src/class_builder.dart';
 import 'package:hive_built_value_generator/src/enum_builder.dart';
 import 'package:hive_built_value_generator/src/helper.dart';
 import 'package:source_gen/source_gen.dart';
+import 'package:source_helper/source_helper.dart';
 import 'builder.dart' as b;
 
 import 'enum_class_builder.dart';
 
 class TypeAdapterGenerator extends GeneratorForAnnotation<HiveType> {
-  /// The enum class type checker. It isn't from runtime because otherwise we
-  /// would have to depend on built_value. Altough [TypeChecker.fromUrl] is
-  /// not reccomended because of it's brittleness, this should not be a problem,
-  /// as this class is in the same url since it was added, 4 years ago.
-  var enumClassChecker = const TypeChecker.fromUrl('package:built_value/built_value.dart#EnumClass');
+  var enumClassChecker = const TypeChecker.fromRuntime(EnumClass);
 
   static String generateName(String typeName) {
     var adapterName = '${typeName}Adapter'.replaceAll(
@@ -86,7 +84,7 @@ class TypeAdapterGenerator extends GeneratorForAnnotation<HiveType> {
     List<AdapterField> getters,
     List<AdapterField> setters,
   ) {
-    if (cls is EnumElement) {
+    if (cls.thisType.isEnum) {
       return EnumBuilder(cls, getters);
     } else if (enumClassChecker.isExactlyType(cls.supertype as DartType)) {
       return EnumClassBuilder(cls);
