@@ -403,7 +403,7 @@ class _ClassBuilderBase extends Builder {
   }
 
   String _convertIterable(DartType type, String accessor) {
-    print('$accessor IS OF TYPE $type isAssignableFromMap ${builtMapChecker.isAssignableFromType(type)}');
+    // print('$accessor IS OF TYPE $type isAssignableFromMap ${builtMapChecker.isAssignableFromType(type)}');
     if (listChecker.isAssignableFromType(type)) {
       return accessor;
     } else
