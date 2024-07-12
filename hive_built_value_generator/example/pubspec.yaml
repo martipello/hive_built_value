@@ -3,11 +3,13 @@ dependencies:
   hive: any
 dev_dependencies:
   build_runner: 2.3.3
-  hive_built_value: ^2.0.10
-  hive_built_value_flutter: ^1.1.2
+  hive_built_value:
+    path: ../../hive_built_value
+  hive_built_value_flutter:
+    path: ../../hive_built_value_flutter
 
 dependency_overrides:
-  meta: 1.8.0
+  meta: ^1.8.0
 
 environment:
   sdk: ">=2.17.6 <3.0.0"

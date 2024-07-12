@@ -1,10 +1,12 @@
 name: example
 
 dependencies:
-  hive_built_value: ^2.0.10
+  hive_built_value:
+    path: ../../hive_built_value
 
 dev_dependencies:
-  hive_built_value_generator: ^1.1.8
+  hive_built_value_generator:
+    path: ../../hive_built_value_generator
   build_runner: ^2.3.3
 
 environment:
