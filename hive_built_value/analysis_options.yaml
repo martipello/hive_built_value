@@ -12,7 +12,6 @@ linter:
   rules:
     - avoid_function_literals_in_foreach_calls
     - avoid_renaming_method_parameters
-    - avoid_returning_null
     - avoid_unused_constructor_parameters
     - await_only_futures
     - camel_case_types
@@ -23,8 +22,6 @@ linter:
     - directives_ordering
     - empty_statements
     - implementation_imports
-    - iterable_contains_unrelated_type
-    - list_remove_unrelated_type
     - lines_longer_than_80_chars
     - no_adjacent_strings_in_list
     - non_constant_identifier_names

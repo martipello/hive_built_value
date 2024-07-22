@@ -1,8 +1,8 @@
 import 'dart:ui' show Color;
 
+import 'package:flutter_test/flutter_test.dart';
 import 'package:hive_built_value_flutter/adapters.dart';
 import 'package:mockito/mockito.dart';
-import 'package:test/test.dart';
 
 import '../mocks.dart';
 

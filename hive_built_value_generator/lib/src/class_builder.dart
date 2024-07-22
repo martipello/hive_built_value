@@ -28,6 +28,7 @@ class ClassBuilder extends _ClassBuilderBase {
   var builtChecker = const TypeChecker.fromRuntime(bv.Built);
   var builtListChecker = const TypeChecker.fromRuntime(BuiltList);
   var builtSetChecker = const TypeChecker.fromRuntime(BuiltSet);
+  @override
   var builtMapChecker = const TypeChecker.fromRuntime(BuiltMap);
 
   var builderChecker = const TypeChecker.fromRuntime(bv.Builder);
@@ -118,6 +119,7 @@ class ClassBuilder extends _ClassBuilderBase {
 
     // Build the class
     code.write(').build()');
+    return null;
   }
 
   String _castBuiltCollection(
