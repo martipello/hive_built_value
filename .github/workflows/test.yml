@@ -8,17 +8,17 @@ jobs:
     strategy:
       matrix:
         test-platform: [vm, chrome]
-        dart-channel: ["2.12.0", "2.13.0"]
+        dart-channel: ["2.17.0", "3.0.0"]
     steps:
       - uses: actions/checkout@v1
       - uses: dart-lang/setup-dart@v1
         with:
           sdk: ${{ matrix.dart-channel }}
       - name: Install dependencies
-        run: pub get
+        run: dart pub get
         working-directory: hive_built_value
       - name: Run tests
-        run: pub run test -p ${{ matrix.test-platform }}
+        run: dart test -p ${{ matrix.test-platform }}
         working-directory: hive_built_value
 
   test-hive-flutter:
@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        dart-channel: ["2.12.0", "2.13.0"]
+        dart-channel: ["2.17.0", "3.0.0"]
     steps:
       - uses: actions/checkout@v1
       - uses: dart-lang/setup-dart@v1
