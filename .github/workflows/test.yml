@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         test-platform: [vm, chrome]
-        dart-channel: ["2.12.0", "2.13.0"]
+        dart-channel: ["2.17.0", "3.4.1"]
     steps:
       - uses: actions/checkout@v1
       - uses: dart-lang/setup-dart@v1
@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        dart-channel: ["2.12.0", "2.13.0"]
+        dart-channel: ["2.17.0", "3.4.1"]
     steps:
       - uses: actions/checkout@v1
       - uses: dart-lang/setup-dart@v1
